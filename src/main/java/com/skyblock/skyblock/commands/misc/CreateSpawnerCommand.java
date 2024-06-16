@@ -3,7 +3,8 @@ package com.skyblock.skyblock.commands.misc;
 import com.skyblock.skyblock.Skyblock;
 import com.skyblock.skyblock.features.location.SkyblockLocation;
 import com.skyblock.skyblock.utilities.command.Command;
-
+import com.skyblock.skyblock.utilities.command.annotations.Description;
+import com.skyblock.skyblock.utilities.command.annotations.RequiresPlayer;
 import com.skyblock.skyblock.utilities.command.annotations.Usage;
 import org.bukkit.Location;
 import org.bukkit.Material;
