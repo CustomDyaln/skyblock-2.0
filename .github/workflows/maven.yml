@@ -2,9 +2,9 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
   workflow_dispatch:
     
@@ -20,15 +20,22 @@ jobs:
         java-version: '8'
         distribution: 'temurin'
         cache: maven
+
+    - name: Install Buildtools
+      uses: SpraxDev/Action-SpigotMC@v4
+      with:
+        versions: 1.8.8
+        
     - name: Build with Maven
       run: mvn -B package --file pom.xml
       
     - name: Add Jar to GitHub releases
       uses: "marvinpinto/action-automatic-releases@latest"
       with:
-        REPO_TOKEN: "${{ secrets.REPO_TOKEN }}"
+        repo_token: "${{ secrets.GITHUB_TOKEN }}"
         automatic_release_tag: "latest"
         prerelease: false
         title: "Automatic Release"
         files: |
+          server/plugins/*.jar
           target/*.jar
