@@ -487,7 +487,7 @@ public final class Skyblock extends JavaPlugin {
                         true,
                         false,
                         null,
-                        new Location(getSkyblockWorld(), 20.5, 71, -40.5),
+                        new Location(getSkyblockWorld(), -24.5, 71, -58.5),
                         (player) -> {
                             SkyblockPlayer.getPlayer(player).setExtraData("personalBankLastUsed", 0L);
                             this.getGuiHandler().show("banker", player);
@@ -505,7 +505,7 @@ public final class Skyblock extends JavaPlugin {
                         false,
                         true,
                         Villager.Profession.BLACKSMITH,
-                        new Location(getSkyblockWorld(), -19.5, 71, -124.5),
+                        new Location(getSkyblockWorld(), -27.5, 69, -126.5),
                         (player) -> this.getGuiHandler().show("reforge", player),
                         "",
                         ""
@@ -518,7 +518,7 @@ public final class Skyblock extends JavaPlugin {
                 true,
                 false,
                 null,
-                new Location(getSkyblockWorld(), 17.5, 71, -78.5),
+                new Location(getSkyblockWorld(), -46.5, 73, -90.5),
                 (player -> player.performCommand("sb auction")),
                 "ewogICJ0aW1lc3RhbXAiIDogMTU5NjExOTEwOTUyOCwKICAicHJvZmlsZUlkIiA6ICJlM2I0NDVjODQ3ZjU0OGZiOGM4ZmEzZjFmN2VmYmE4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5pRGlnZ2VyVGVzdCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMTgzYzNlOGJhOGI2ZTIwNmQ0YzFhMjQ4M2UzYjNhYmE3MTY2YjM5NjczODA4YmU5MmJlMzIwMzI3MGIyNDhjIgogICAgfQogIH0KfQ==",
                 "e4r8fhl+jz4F1KxHQCggSnYAm5h+2BIDBumRdNY+qKdC82PeyFUrhSpn9rCwJ2QT1jYMQaZ61I8MUOsNOP+8Qj7xcD7CkhJM9NxwTK2ba948BpR1w3ZIPpj7OPLmAIMZl0Ux8OFXmiK355gYdKzRyr2+37fvRAj1KkO6ov2dG8y1uybVUyKgedUB5jWHjM3idKENIjCf5at9tktW+sjyAtT3TDqkoF78Fe7rDzhSaVYGW81YaNJ3C08FBDZST7vxlDhMG4ADwmQdnlhFdGcRCbh4FPeV8T35eEBXHtynZ40iJctiJAjCIGLCWZI4UeG/Hh+vtmdrZBofosNsR8RuujvQ5SsHZqd1rXOiZ2PC3j0EmrOiZKoyBd9yO3MG8EBwx57qco+LFAurUg5JBMZn4TI4oI+pYh2y8aN68X1JEO4M6kMMCDTgijztFK969f37cyx4xjFdrZA91CIIRUqyDKt4x9dxkQ72vdfGplkiHZyEeUIWlaFCQIky3zsUa63tvVRNQ455/rBNTQthUIsq1Aq5Qewtps32IBryUGvHliZ1E9OH8CBaXX26P67Dx+JJwHxpKpMRdeohlk4MojpjWD+wjH3cIp79lzfGozll7605EfUwkSRKnRYZnFZF7+8Q46CJcmBWz51eXOTrGesbpbFlRQMp6N4deeKuU7KIkrE="
@@ -530,7 +530,7 @@ public final class Skyblock extends JavaPlugin {
                 true,
                 false,
                 null,
-                new Location(getSkyblockWorld(), 32.0, 71.0, -79.0),
+                new Location(getSkyblockWorld(), -32.0, 71.0, -76.0),
                 (player -> player.performCommand("sb bazaar")),
                 "ewogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJpZCIgOiAiYmE0ODUzODFjNzI5NDhiY2E0NzY1NjJjNzRlZmE0NTkiLAogICAgICAidHlwZSIgOiAiU0tJTiIsCiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzIzMmUzODIwODk3NDI5MTU3NjE5YjBlZTA5OWZlYzA2MjhmNjAyZmZmMTJiNjk1ZGU1NGFlZjExZDkyM2FkNyIsCiAgICAgICJwcm9maWxlSWQiIDogIjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwKICAgICAgInRleHR1cmVJZCIgOiAiYzIzMmUzODIwODk3NDI5MTU3NjE5YjBlZTA5OWZlYzA2MjhmNjAyZmZmMTJiNjk1ZGU1NGFlZjExZDkyM2FkNyIKICAgIH0KICB9LAogICJza2luIiA6IHsKICAgICJpZCIgOiAiYmE0ODUzODFjNzI5NDhiY2E0NzY1NjJjNzRlZmE0NTkiLAogICAgInR5cGUiIDogIlNLSU4iLAogICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jMjMyZTM4MjA4OTc0MjkxNTc2MTliMGVlMDk5ZmVjMDYyOGY2MDJmZmYxMmI2OTVkZTU0YWVmMTFkOTIzYWQ3IiwKICAgICJwcm9maWxlSWQiIDogIjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwKICAgICJ0ZXh0dXJlSWQiIDogImMyMzJlMzgyMDg5NzQyOTE1NzYxOWIwZWUwOTlmZWMwNjI4ZjYwMmZmZjEyYjY5NWRlNTRhZWYxMWQ5MjNhZDciCiAgfSwKICAiY2FwZSIgOiBudWxsCn0=",
                 "B+1Zq16nwoRYl4Ptbsc0vk6juz0fXnSj96JELezDpgrf1rIypSJ68uKaCKvX0XcVCH7eom/9CZTgpgUPoSH+QjG8I9017YKt3SVjKPq9KLxbM5kjKqJEx4Png2mPvkC+c5TF7Qw7FxjKA4AdSs/7XCeHXSZDgebTKhh6D4WH+XARBsLmNmG/EFo5zP7gUn+EkiGUaOjRPizYuRwOg1zNFkoPsrDGIovnW4itbu2BjdJ80yiTRn4bwGMm93NC/pCG7jbgsxO+YP1GkZnLUaAiIIQcKumC1nrlk3GTFAnHi+JFX562EKNUUMAtWrS/0v7QyeDYfDDtXLB8gNrzXHmaAKkvC1AU5/dk/YLZGq4lY6ukkZVOe+XLNbdXE4QNdA8ewPgPKUBwYEO6UW4jDOV+nN1WRana+rTREJUycFcxs2u6zinKV7lRtMbZ6CzpL+gvPlzhldvovvhX273Fdm7vpoPIRT6vVyO50dWH4qpM7n38Mgyxulot63NvLHzHG7Db8Z7ruZenVLE5cdjBAYHKHOjoOxzR81nPlGp7x3fdlF1usWSx5WRjpdw8Eyim7xrc2iNHRzyE1Lbywz7BTeT5ADHqsFkshrkG2bA11MnnZUyfjdPt4VNoUNX53KgWv14vmgtu8quu2xCW8JQ0J3HANoDgqPINKzCqn6oGdDz3Gy8="
@@ -555,7 +555,7 @@ public final class Skyblock extends JavaPlugin {
                         true,
                         false,
                         null,
-                        new Location(getSkyblockWorld(), -87.0, 66.0, -70.0),
+                        new Location(getSkyblockWorld(), -73.0, 65.0, -49.0),
                         (player) -> player.performCommand("sb batphone"),
                         "ewogICJ0aW1lc3RhbXAiIDogMTU5NjQ5MTIwODg4NCwKICAicHJvZmlsZUlkIiA6ICJkNjBmMzQ3MzZhMTI0N2EyOWI4MmNjNzE1YjAwNDhkYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCSl9EYW5pZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTMzNmQ3Y2M5NWNiZjY2ODlmNWU4Yzk1NDI5NGVjOGQxZWZjNDk0YTQwMzEzMjViYjQyN2JjODFkNTZhNDg0ZCIKICAgIH0KICB9Cn0=",
                         "NeIGEVhTQsg+GfcmtVhCCXdWX6tQpI/iUjPixUKaxea5q8xTpCKFSGqnIhSgG0CjPpxw9UKwC1yr4gIDsM5zPGjnIsD3PDP4F6Jaicx0YsiJGr861zxQDSlxpkcbGXrHRuNq92TT4/zojNMk6qPGtGeFApro7dXxU5Fq7HpyikHR2S4iaTZAF2L65rXqdogmQIBcTI5UVO2cZ3xNSr3j9y/nKGUx0SwVaIryt1sMHj2cO5Lknb9eiiG+vfw/LTlgwOmc9PXHhQB045SoBgGondcBZYBWVGCP9dTCNrvDBp963rzEkJMOfLfL+M2P+BT318BCBQzQ6JGJuILqhdY/Ph7qZJW2P9g8At9chbfnBdwMnHvjTshGN3XMzVg8BdxFAKydJMSocfF4j9KvPCtP1Hilk0pylqRAPe1cn0JpTZ1e/xzorzgqHdo0kXmf8gzLXHXDz8fYanZpQQCemwL3aOHy6nvAFFk/+j6kGLEaetTZgw8WAMJiyAxcpN/elfG9fxoX+pXMFtM9ItRA2Sf6EHdRKJTc4gB+yclkuCd3MgCiRDZU5NwpH8AhTmFZsjd0nHzHLXvpNPmSLAZiYi7EqG9SySEu7pJ4PXHZ0F80jKknNqh0CnnnqH4iKdMIUau33ENPKTLiuxwqxj9bv6ZtsCUZXn/mHWeCOiB6IBPjaR0="));
@@ -588,7 +588,7 @@ public final class Skyblock extends JavaPlugin {
                         true,
                         false,
                         null,
-                        new Location(Skyblock.getSkyblockWorld(), -28, 71, -107),
+                        new Location(Skyblock.getSkyblockWorld(), 28, 71, -43),
                         (p) -> Util.sendDelayedMessages(p, "Taylor", "Hello!", "You look dashing today!"),
                         "ewogICJ0aW1lc3RhbXAiIDogMTU5MDg4MzYxNjg5NCwKICAicHJvZmlsZUlkIiA6ICI3ZGEyYWIzYTkzY2E0OGVlODMwNDhhZmMzYjgwZTY4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkYXBmZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThjYTBjODliZWY4YzRlN2U1MjFiMTEzODIxZmZkZjAwZTdiNWViNTUyYTM3OGY5MDM3Y2JlYzY1NWRkMjdjOCIKICAgIH0KICB9Cn0=",
                         "r6GGjK7Rb0X3mhJQFyMYn+5OU0JvzBYnxti3hGQfomrDMrI5NdWe/+huGw22UqSFt7pMoZH+04J0z0gFFFFmdY6p0gbcls/9W1qIxgjSFYbDM5y/v1xu3+o9sX5P4WY9WVLOV/RYilfTNIRHCu6+rb/X+x+4ftttaf+zyVvF/bMQq+EwgcRo0UNkXIOrzvH0CKNbEIF9D/9mHk2kBgElq6ucs5ohVSVkU9R4XWTbzs2v4LYmSumRSzKd4eB6L66R3CbCqt7nk8DLnsEmexcxR8u9k6BR1P2Itf2yGZPf1hdconNZKqKdv/sKgtPZo5wcIk5h5cGfezN1b2wHXbKBXV/EN2ZTvC5seNJlXDHy0vGhlThwqHPvd24E+aSHnLu+Gfujw72NR10VsL5cnxmLjmGQQh12ohus5ZO45nE8+UZEBq4gr1wdgMfTRF8XYYRXclKuFcPwKMFMjsGtvV4jVxEunuZitygHOzcjUF7dKYbBv8yFtP0UxWA9r2Phcf1JwqHWf0lSE9l2Qi+AKoz3HCBhKdxPvuIPET/VKCB4xQkrjm8pCQYyD9FOLz0/t6yLf4KOHEhSfcWM2ObzACAxH3Euz8KCFdYUQShVejAvahA2sJM/twqZdvDgVed4Apmhx/LAJjhGRTzIvg0D7HzZVyfArEEgQMi8ZDttE/5Lyk4="
@@ -615,7 +615,7 @@ public final class Skyblock extends JavaPlugin {
                         true,
                         false,
                         null,
-                        new Location(Skyblock.getSkyblockWorld(), -30.5, 66, -108.5),
+                        new Location(Skyblock.getSkyblockWorld(), 25.5, 64, -41.5),
                         (p) -> {
                             Util.sendDelayedMessage(p, "Seymour", "Looking to buy something fancy?", 0);
                             new SeymourGui(p).show(p);
@@ -628,15 +628,15 @@ public final class Skyblock extends JavaPlugin {
         Admin houses
          */
 
-        this.npcHandler.registerNPC("sylent_",
+        this.npcHandler.registerNPC("itz_invincible",
                 new NPC(
-                        ChatColor.RED + "Sylent_",
+                        ChatColor.RED + "Itz_Invincible",
                         true,
                         true,
                         false,
                         null,
                         new Location(Skyblock.getSkyblockWorld(), -67.5, 69, -93.5),
-                        (p) -> Util.sendDelayedMessages(p, ChatColor.RED + "Sylent_", "You can hold as many talismans as you want in your inventory. They will always work."),
+                        (p) -> Util.sendDelayedMessages(p, ChatColor.RED + "Itz_Invincible", "You can hold as many talismans as you want in your inventory. They will always work."),
                         "ewogICJ0aW1lc3RhbXAiIDogMTY3MzAzNTIyNDg4MSwKICAicHJvZmlsZUlkIiA6ICI1MWU4OTE1ZGJlM2E0ZDU4OTQ2OTNhMTZmM2M2MGM3MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJTeWxlbnRfIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNGU2ZmVjZTVhNTY0MzNiYWFlYmE3ODc4NjYyYjIzNjJiNGZmYjdkNTIzOWVhZDgzZmZjOTUyMjFmOGViYzUiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9",
                         "NniVgyJmfWI5OK/7t9q4hWalHgVMO/VR5HqTod6DY+00qkCZgPkEGBxWbAdxvfE4yrVK/TaPRsMS7cJcSP3k74WYEPIPnXthNfNbzsGPz17Ns3fsc/w4GaLp688zo0OG8TRKRJA2ECcoD1B0kaAuRLKsO7NyBBj8XLL+pHv5QwNeMXg53x2OxsoTf25/BdcJJ9bNVv84V+bCAs1gspnbYBWaODcKj3qUUkUPXrm7nHeafi7snXCIRN1L088Qv3Lu7HTor3sojn9rH1FaFCLGIuVimvW+HWGRdkq3soXJrvFPyIZzstKQtXGUjOSG6V1cNPYXCVO/A6VtW1VmU2Lio9/Q7xvjLF9U3fcD4rXHZz6YUy5iZz6YbznjMAdRzYiFgg7lpRd8Au4Gcykf6873IX0YXucwcB4GiPUkRVnoCLI8j2UbdbHy8MO0ydvP1u1QamhWbRjorSJfUBbk6o2NYeYIfuZ+Gcki3xgWtrc1R0Q6FXN+K5Cir2GvXlQXjKrz2W0tAb8kkl3/4ITRZwoJN22i0CqoVq/FawFJNsW7lG/W7t29uxsaySj34gyDYsQag19DWAwUaazq207JNGVMcJCji/55qT4OxItFrjg2EvfpdJ+DbWLY2BlOABXhGKEjuYCFsABZcO9tI7gwW/+rkLIlGOqHfprtKGC/sHG63PE="
                 ));
@@ -651,7 +651,7 @@ public final class Skyblock extends JavaPlugin {
                             true,
                             false,
                             null,
-                            new Location(Bukkit.getWorld("deep_caverns"), 45.5, y, (y == 101 ? 17.5 : 15.5)),
+                            new Location(Bukkit.getWorld("world"), 39.5, y, (y == 101 ? 17.5 : -525.5)),
                             (player) -> new LiftOperatorGui(player).show(player),
                             "ewogICJ0aW1lc3RhbXAiIDogMTU5Mzk5ODcxNjIyOSwKICAicHJvZmlsZUlkIiA6ICI2OTBkMDM2OGM2NTE0OGM5ODZjMzEwN2FjMmRjNjFlYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ5emZyXzciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRhODdjODAwNWJlM2QzMWZkNDMyM2NiMWE0NGI5ZjY5ZmQxOTgyYWY1YjljODdhMzU5NTUzNjY2ZWFjODUyYSIKICAgIH0KICB9Cn0=",
                             "wbcgvF/NVdgPE80LE/KTpGVnHkvZ8L8lmdoflEjK3yfiOL4gXzdoP5hYoCG1nBh6wppNi4a7rNZf0RV0fnUgy18NQdrqVGh6crIpQ+ya6zSeegfD7jVyAGPRCcJmtu14jUIhZeWd22AOOq9H1QR/bF9xtRO4zkDrAA11qW9c49f6n6wYQpOcFDjSdBcg4hUFyEh7XlmbdhwphM6waJnA6FlPXm5gLfLr7n5Ug5xznoqviF/d7OlEDbgg37csjtDnkY99QnRdxjCET1Bvl2g1ZTQmOVplDmhuTrV8hndvJT4Gn1kcx531u17fyLsg6B7SLn8ojxLzTVJM4d47JqXkWfBz1bXby6owPgKM95dGf+IAAUopYJ3KLL76huakeSYN1koG6t17veFwVkFhJUqtSZKsSLyAGSyINUa0zMjz9VLkYQkqWw2RhXQLKLQs7qKzXcGdrtT52QZcuA9zRFskkPYukPEswektVlxwJuuMicRHk5BZlIicOgMjaHqR6HwAChzJPDQkPKIbXjrWEVtQCIPNbGkbIlz2+/owNc8vvuzwHrtjlh1gBw5cfM9bz83Kmr6KLAnDknQ0SeRAe5mF6+Vf4y07YI8yARCeTAcPd5SPmpX0nW7VRcCzOH3deGNgS3pzcusKsISfF+qAo50qRMEOCcosz6juMiborf8fu60=")
@@ -660,12 +660,12 @@ public final class Skyblock extends JavaPlugin {
             liftOperators[0]++;
         };
 
-        spawnLiftOperator.accept(150);
-        spawnLiftOperator.accept(121);
-        spawnLiftOperator.accept(101);
-        spawnLiftOperator.accept(66);
-        spawnLiftOperator.accept(38);
-        spawnLiftOperator.accept(13);
+        spawnLiftOperator.accept(171);
+        spawnLiftOperator.accept(142);
+        spawnLiftOperator.accept(122);
+        spawnLiftOperator.accept(87);
+        spawnLiftOperator.accept(59);
+        spawnLiftOperator.accept(34);
 
         this.sendMessage("Successfully registered NPCs [" + Util.getTimeDifferenceAndColor(start, System.currentTimeMillis()) + ChatColor.WHITE + "]");
     }

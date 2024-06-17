@@ -31,7 +31,7 @@ public class IntroduceYourselfQuest extends QuestLine {
     @Override
     public void onEnable() {
         registerVillager("leo", new NPC("Leo", true, false, true, Villager.Profession.BUTCHER,
-                new Location(Skyblock.getSkyblockWorld(), -5.5, 70, -89.5),
+                new Location(Skyblock.getSkyblockWorld(), -6.5, 70, -74.5),
                 (p) -> {
                     sendDelayedMessages(p, "Leo",
                     "You can unlock Leaflet Armor by progressing through your Oak Log Collection",
@@ -40,7 +40,7 @@ public class IntroduceYourselfQuest extends QuestLine {
                 }, "", ""));
 
         registerVillager("tom", new NPC("Tom", true, false, true, Villager.Profession.BUTCHER,
-                new Location(Skyblock.getSkyblockWorld(), -14.5, 70, -84.5),
+                new Location(Skyblock.getSkyblockWorld(), 28.5, 69, -56.5),
                 (p) -> {
                     sendDelayedMessages(p, "Tom",
                             "I will teach you the Promising Axe Recipe to get you started!",
@@ -48,7 +48,7 @@ public class IntroduceYourselfQuest extends QuestLine {
                 }, "", ""));
 
         registerVillager("jamie", new NPC("Jamie", true, false, true, Villager.Profession.BUTCHER,
-                new Location(Skyblock.getSkyblockWorld(), -17.5, 70, -67.5),
+                new Location(Skyblock.getSkyblockWorld(), -35.5, 70, -37.5),
                 (p) -> {
                     sendDelayedMessages(p, "Jamie", (player) -> {
                                 new GiftGui(player, Skyblock.getPlugin().getItemHandler().getItem("ROGUE_SWORD.json")).show(player);
@@ -59,14 +59,14 @@ public class IntroduceYourselfQuest extends QuestLine {
                 }, "", ""));
 
         registerVillager("andrew", new NPC("Andrew", true, false, true, Villager.Profession.BUTCHER,
-                new Location(Skyblock.getSkyblockWorld(), 9.5, 70, -64.5),
+                new Location(Skyblock.getSkyblockWorld(), 38.5, 68, -45.5),
                 (p) -> {
                     sendDelayedMessages(p, "Andrew",
                             "If you find a bug or exploit, remember to report it on the forums!");
                 }, "", ""));
 
         registerVillager("jack", new NPC("Jack", true, false, true, Villager.Profession.BUTCHER,
-                new Location(Skyblock.getSkyblockWorld(), -1.5, 70, -66.5),
+                new Location(Skyblock.getSkyblockWorld(), -0.5, 70, -53.5),
                 (p) -> {
                     sendDelayedMessages(p, "Jack",
                             "Your SkyBlock Profile in your SkyBlock Menu shows details about your current stats!",
@@ -76,7 +76,7 @@ public class IntroduceYourselfQuest extends QuestLine {
                 }, "", ""));
 
         registerVillager("vex", new NPC("Vex", true, false, true, Villager.Profession.BUTCHER,
-                new Location(Skyblock.getSkyblockWorld(), 12.5, 70, -85.5),
+                new Location(Skyblock.getSkyblockWorld(), -15.5, 70, -80.5),
                 (p) -> {
                     sendDelayedMessages(p, "Vex",
                             "You can shift click any player to trade with them!",
@@ -85,7 +85,7 @@ public class IntroduceYourselfQuest extends QuestLine {
                 }, "", ""));
 
         registerVillager("stella", new NPC("Stella", true, false, true, Villager.Profession.BUTCHER,
-                new Location(Skyblock.getSkyblockWorld(), 28.5, 70, -116.5),
+                new Location(Skyblock.getSkyblockWorld(), 17.5, 70, -98.5),
                 (p) -> {
                     sendDelayedMessages(p, "Stella",
                             "At any time you can create a Co-op with your friends",
@@ -94,7 +94,7 @@ public class IntroduceYourselfQuest extends QuestLine {
                 }, "", ""));
 
         registerVillager("duke", new NPC("Duke", true, false, true, Villager.Profession.BUTCHER,
-                new Location(Skyblock.getSkyblockWorld(), 1.5, 70, -103.5),
+                new Location(Skyblock.getSkyblockWorld(), -5.5, 70, -88.5),
                 (p) -> {
                     sendDelayedMessages(p, "Duke",
                             "Are you new here? As you can see there is a lot to explore!",
@@ -103,7 +103,7 @@ public class IntroduceYourselfQuest extends QuestLine {
                 }, "", ""));
 
         registerVillager("felix", new NPC("Felix", true, false, true, Villager.Profession.BUTCHER,
-                new Location(Skyblock.getSkyblockWorld(), -14.5, 70, -98.5),
+                new Location(Skyblock.getSkyblockWorld(), -24.5, 68, -102.5),
                 (p) -> {
                     sendDelayedMessages(p, "Felix",
                             "You can access your Ender Chest in your SkyBlock Menu.",
@@ -111,14 +111,14 @@ public class IntroduceYourselfQuest extends QuestLine {
                 }, "", ""));
 
         registerVillager("lynn", new NPC("Lynn", true, false, true, Villager.Profession.BUTCHER,
-                new Location(Skyblock.getSkyblockWorld(), 8.5, 70, -101.5),
+                new Location(Skyblock.getSkyblockWorld(), -20.5, 68, -123.5),
                 (p) -> {
                     sendDelayedMessages(p, "Lynn",
                             "If you ever get lost during a quest, open your Quest Log in your SkyBlock Menu!");
                 }, "", ""));
 
         registerVillager("liam", new NPC("Liam", true, false, true, Villager.Profession.BUTCHER,
-                new Location(Skyblock.getSkyblockWorld(), -35.5, 70, -97.5),
+                new Location(Skyblock.getSkyblockWorld(), -75.5, 70, -10.5),
                 (p) -> {
                     sendDelayedMessages(p, "Liam",
                             "One day those houses in the Village will be rentable for Coins!",
@@ -126,7 +126,7 @@ public class IntroduceYourselfQuest extends QuestLine {
                 }, "", ""));
 
         registerVillager("ryu", new NPC("Ryu", true, false, true, Villager.Profession.BUTCHER,
-                new Location(Skyblock.getSkyblockWorld(), -6.5, 70, -118.5),
+                new Location(Skyblock.getSkyblockWorld(), 27.5, 70, -115.5),
                 (p) -> {
                     sendDelayedMessages(p, "Ryu",
                             "There are 7 Skills in Skyblock!",
