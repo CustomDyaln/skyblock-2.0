@@ -6,6 +6,7 @@ description: Hypixel Skyblock Remake
 api-version: 1.8.8
 prefix: SB
 depend:
+  - WorldEdit
   - ArmorEvent
   - NBTAPI
   - ActionBarAPI
