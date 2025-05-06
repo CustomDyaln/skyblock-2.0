@@ -3,7 +3,7 @@ version: '${project.version}'
 main: com.skyblock.skyblock.Skyblock
 authors: [ Exortions, OptimusChen ]
 description: Hypixel Skyblock Remake
-api-version: 1.8.8
+api-version: 1.21.4
 prefix: SB
 depend:
   - WorldEdit
