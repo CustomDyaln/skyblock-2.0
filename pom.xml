@@ -20,6 +20,30 @@
     <build>
         <plugins>
             <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-shade-plugin</artifactId>
+      <version>3.5.0</version>
+      <executions>
+        <execution>
+          <phase>package</phase>
+          <goals>
+            <goal>shade</goal>
+          </goals>
+          <configuration>
+            <!-- Relocate to avoid conflicts if a server has its own WorldEdit -->
+            <relocations>
+              <relocation>
+                <pattern>com.sk89q.worldedit</pattern>
+                <shadedPattern>your.plugin.shaded.worldedit</shadedPattern>
+              </relocation>
+            </relocations>
+            <!-- Keep your original POM intact -->
+            <createDependencyReducedPom>false</createDependencyReducedPom>
+          </configuration>
+        </execution>
+      </executions>
+             </plugin>     
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
@@ -84,6 +108,12 @@
             <artifactId>spigot</artifactId>
             <version>1.8.8-R0.1-SNAPSHOT</version>
         </dependency>
+         <dependency>
+             <groupId>com.sk89q.worldedit</groupId>
+             <artifactId>worldedit-core</artifactId>
+             <version>7.3.11</version>
+             <scope>compile</scope>
+         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
