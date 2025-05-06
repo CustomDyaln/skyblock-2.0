@@ -1,0 +1,10 @@
+{
+  "name": "Java 21 & Maven",
+  "image": "mcr.microsoft.com/vscode/devcontainers/java:21",
+  "features": {
+    "ghcr.io/devcontainers/features/maven:1": {}
+  },
+  "postCreateCommand": "mvn clean package",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+  "workspaceFolder": "/workspace"
+}
